@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0,
+maximum-scale=1.0,
+user-scalable=no">
+
+<title>Free Wallpapers by mz90fps</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+
+html,body{
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#d8c3a5;
+    font-family:Poppins,sans-serif;
+    color:#111;
+}
+
+/* MAIN CONTAINER */
+.container{
+    width:100%;
+    max-width:420px;
+    margin:auto;
+    padding:14px;
+}
+
+/* TITLE */
+h2{
+    text-align:center;
+    font-size:24px;
+    font-weight:700;
+    margin-top:8px;
+    margin-bottom:18px;
+    color:#000;
+}
+
+/* SEARCH BAR */
+.search-box{
+    width:100%;
+    margin-bottom:10px;
+}
+
+.search-box input{
+    width:100%;
+    height:42px;
+    border:none;
+    outline:none;
+    border-radius:999px;
+    background:#e3d2ba;
+    border:1px solid #cfbea6;
+    padding:0 18px;
+    font-size:14px;
+    color:#111;
+    font-family:Poppins,sans-serif;
+}
+
+.search-box input::placeholder{
+    color:#555;
+}
+
+/* BUTTON */
+.btn{
+    width:100%;
+    background:#e3d2ba;
+    border:1px solid #cfbea6;
+    border-radius:999px;
+    padding:16px 22px;
+    margin-bottom:12px;
+    cursor:pointer;
+    transition:0.15s;
+}
+
+.btn:active{
+    transform:scale(0.985);
+}
+
+.left{
+    display:flex;
+    align-items:center;
+}
+
+.text{
+    font-size:16px;
+    font-weight:500;
+    color:#111;
+}
+
+/* BACK BUTTON SPACE */
+.back-btn{
+    margin-bottom:24px;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+    .container{
+        padding:12px;
+    }
+
+    h2{
+        font-size:23px;
+    }
+
+    .btn{
+        padding:15px 20px;
+        border-radius:999px;
+    }
+
+    .text{
+        font-size:15px;
+    }
+
+    .search-box input{
+        height:40px;
+        font-size:13px;
+        padding:0 16px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Free Wallpapers by mz90fps</h2>
+
+<!-- SEARCH -->
+<div class="search-box">
+<input
+type="text"
+id="searchInput"
+placeholder="Search wallpapers..."
+onkeyup="filterWallpapers()">
+</div>
+
+<!-- BACK -->
+<div class="btn back-btn"
+onclick="window.location.href='https://mz90fps.github.io/'">
+
+<div class="left">
+<div class="text">⬅️ Back to Home</div>
+</div>
+
+</div>
+
+<!-- PART 18 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1sQkqu6LbhzXBzDPd6_W9GS1UxYM1dT6O?usp=sharing')">
+<div class="left">
+<div class="text">wallpaper part 18</div>
+</div>
+</div>
+
+<!-- PART 17 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1Phq5vvE3vTJgKvLV0jcAIJW_Eg-Xi97A?usp=sharing')">
+<div class="left">
+<div class="text">Rengoku wallpaper part 17</div>
+</div>
+</div>
+
+<!-- PART 16 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1qJB74iG2MG2xLS-SdDFGvAaJQhw--7Db?usp=sharing')">
+<div class="left">
+<div class="text">Tom & jeryy X demon slayer part 16</div>
+</div>
+</div>
+
+<!-- PART 15 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1JnZmYVxhf6Olgwc-QvPe30f-T9vZ3Wa6?usp=sharing')">
+<div class="left">
+<div class="text">Tom & jeryy X one piece Part 15</div>
+</div>
+</div>
+
+<!-- PART 14 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/12TQG5JhXfwcY8PpOMarUJr5npU1nVWq-?usp=sharing')">
+<div class="left">
+<div class="text">Mercedes Cars Wallpapers Part 14</div>
+</div>
+</div>
+
+<!-- PART 13 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/12uAOG-ile3PSSP0_tSVS-3zIIAx3IYAD?usp=sharing')">
+<div class="left">
+<div class="text">pragmata Wallpapers Part 13</div>
+</div>
+</div>
+
+<!-- PART 12 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1PFEj6BdL_TP5X8j8cOljwfUUUuNU6s9K?usp=sharing')">
+<div class="left">
+<div class="text">Wallpapers Part 12</div>
+</div>
+</div>
+
+<!-- PART 11 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1Zw31p2oZOX__n9V7aQr20h3e55CA_dsV?usp=sharing')">
+<div class="left">
+<div class="text">Wallpapers Part 11</div>
+</div>
+</div>
+
+<!-- PART 10 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1tO6bBrA7snAVQKkHuMgFMJTjuoZ7kk04?usp=sharing')">
+<div class="left">
+<div class="text">Wallpapers Part 10</div>
+</div>
+</div>
+
+<!-- PART 9 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1UbY0qEwOdnyH3Nv3-ZTYk1r3i6kW3HU_?usp=sharing')">
+<div class="left">
+<div class="text">Var Var Anime Dance Part 9</div>
+</div>
+</div>
+
+<!-- PART 8 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1aH3n-L6NeYh6JlBZTxff6mMUmAlTYWwz?usp=sharing')">
+<div class="left">
+<div class="text">Tom and Jerry x AnimePart 8</div>
+</div>
+</div>
+
+<!-- PART 7 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1L62R_OJssmy3JSCIFiiTbOgX1K7hcSYZ?usp=sharing')">
+<div class="left">
+<div class="text">Wallpapers Part 7</div>
+</div>
+</div>
+
+<!-- PART 6 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1HKOveuOcKIY62tc9NzdTnPw_mKgXCQ-m?usp=sharing')">
+<div class="left">
+<div class="text">Wallpapers Part 6</div>
+</div>
+</div>
+
+<!-- PART 5 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1hL7bHFyO6fySl0TvHUoDqPKBzZRZIuou?usp=drive_link')">
+<div class="left">
+<div class="text">Cat Part 5</div>
+</div>
+</div>
+
+<!-- PART 4 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/16DqUOXQ4b0yBGz8HVUbWZ8AnT7sX23dK?usp=drive_link')">
+<div class="left">
+<div class="text">Spider Man Edit Part 4</div>
+</div>
+</div>
+
+<!-- PART 3 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/file/d/1DkIWL4i1UNGqL7Ce1u82xHoxZYnbfJcn/view?usp=drive_link')">
+<div class="left">
+<div class="text">Tom and Jerry x Anime Part 3</div>
+</div>
+</div>
+
+<!-- PART 2 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/file/d/1hni65CNpB_JoQRGDFtLGOhNbgb__RS1a/view?usp=drive_link')">
+<div class="left">
+<div class="text">Tom and Jerry x Anime Part 2</div>
+</div>
+</div>
+
+<!-- PART 1 -->
+<div class="btn wallpaper-item"
+onclick="openLink('https://drive.google.com/drive/folders/1Bc7zg5-52IQ7zmfVqBS5U-cskBglaJxS')">
+<div class="left">
+<div class="text">War Wallpapers Part 1</div>
+</div>
+</div>
+
+</div>
+
+<script>
+
+function openLink(url){
+    window.open(url, "_blank");
+}
+
+function filterWallpapers(){
+
+    let input =
+    document.getElementById("searchInput")
+    .value
+    .toLowerCase();
+
+    let items =
+    document.querySelectorAll(".wallpaper-item");
+
+    items.forEach(item => {
+
+        let text =
+        item.innerText.toLowerCase();
+
+        if(text.includes(input)){
+            item.style.display = "block";
+        }else{
+            item.style.display = "none";
+        }
+
+    });
+}
+
+</script>
+
+</body>
+</html>
